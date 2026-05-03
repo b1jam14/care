@@ -40,11 +40,11 @@
       }
 
       const registration = await navigator.serviceWorker.register(
-        "/TON-REPO/firebase-messaging-sw.js"
+        "/Care/firebase-messaging-sw.js"
       );
 
       const token = await getToken(messaging, {
-        vapidKey: "TA_CLE_VAPID_PUBLIQUE",
+        vapidKey: "BNVaU-yEJWK5gp6p1km6mZMc95l769Vji6j4GS7tVId7Q6ZCmYCGS0_brkDpgBI9hc4GIrO4pkgQIK_-ySgFAGg",
         serviceWorkerRegistration: registration
       });
 
